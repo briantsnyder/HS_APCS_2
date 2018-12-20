@@ -1,0 +1,75 @@
+public class GradesV2
+{
+    public static void main(String[ ] args)
+    {
+        //local variables       
+        int numTest = 0; // counts number of tests
+        int testGrade = 0; // individual test grade
+        int totalPoints = 0; // total points for all tests
+        double average = 0.0; // average grade
+        
+        // calculates the average score for the given test scores
+        testGrade = 95;  // initial test score
+        numTest++;       // # of tests increments
+        totalPoints += testGrade; // adds test one to current total
+        average = (totalPoints / (double)numTest); // divides total by the number of tests to give the average
+        System.out.println("Test # " + numTest + "  Test Grade: " + testGrade + "   Total Points: " + totalPoints + "    Average Score: " + average); // prints the results
+        
+        // calculates the average score for the given test scores
+        testGrade = 73; // second test score
+        numTest++;      // # of tests increments
+        totalPoints += testGrade; // adds test two to current total
+        average = (totalPoints / (double)numTest); // divides total by the number of tests to give the average
+        System.out.println("Test # " + numTest + "  Test Grade: " + testGrade + "   Total Points: " + totalPoints + "   Average Score: " + average); // prints the results
+        
+        // calculates the average score for the given test scores
+        testGrade = 91; // third test score
+        numTest++;      // # of tests increments
+        totalPoints += testGrade; // adds test three to current total
+        average = (totalPoints / (double)numTest); // divides total by the number of tests to give the average
+        System.out.println("Test # " + numTest + "  Test Grade: " + testGrade + "   Total Points: " + totalPoints + "   Average Score: " + average); // prints the results
+        
+        // calculates the average score for the given test scores
+        testGrade = 82; // fourth test score
+        numTest++;      // # of tests increments
+        totalPoints += testGrade; // adds test four to current total
+        average = (totalPoints / (double)numTest); // divides total by the number of tests to give the average
+        System.out.println("Test # " + numTest + "  Test Grade: " + testGrade + "   Total Points: " + totalPoints + "   Average Score: " + average); // prints the results
+        
+        // calculates the average score for the given test scores
+        testGrade = 75; // fifth test score
+        numTest++;      // # of tests increments
+        totalPoints += testGrade; // adds test five to current total
+        average = (totalPoints / (double)numTest); // divides total by the number of tests to give the average
+        System.out.println("Test # " + numTest + "  Test Grade: " + testGrade + "   Total Points: " + totalPoints + "   Average Score: " + average); // prints the results
+        
+        // calculates the average score for the given test scores
+        testGrade = 89; // sixth test score
+        numTest++;      // # of tests increments
+        totalPoints += testGrade; // adds test six to current total
+        average = (totalPoints / (double)numTest); // divides total by the number of tests to give the average
+        System.out.println("Test # " + numTest + "  Test Grade: " + testGrade + "   Total Points: " + totalPoints + "   Average Score: " + average); // prints the results
+        
+        // calculates the average score for the given test scores
+        testGrade = 60; // seventh test score
+        numTest++;      // # of tests increments
+        totalPoints += testGrade; // adds test seven to current total
+        average = (totalPoints / (double)numTest); // divides total by the number of tests to give the average
+        System.out.println("Test # " + numTest + "  Test Grade: " + testGrade + "   Total Points: " + totalPoints + "   Average Score: " + average); // prints the results
+        
+        // calculates the average score for the given test scores
+        testGrade = 97; // eighth test score
+        numTest++;      // # of tests increments
+        totalPoints += testGrade; // adds test eight to current total
+        average = (totalPoints / (double)numTest); // divides total by the number of tests to give the average
+        System.out.println("Test # " + numTest + "  Test Grade: " + testGrade + "   Total Points: " + totalPoints + "   Average Score: " + average); // prints the results
+        
+        // calculates the average score for the given test scores
+        testGrade = 99; // ninth test score
+        numTest++;      // # of tests increments
+        totalPoints += testGrade; // adds test nine to current total
+        average = (totalPoints / (double)numTest); // divides total by the number of tests to give the average
+        System.out.println("Test # " + numTest + "  Test Grade: " + testGrade + "   Total Points: " + totalPoints + "   Average Score: " + average); // prints the results
+        
+    }//end of main method
+}//end of class
